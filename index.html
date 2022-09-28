@@ -1,45 +1,29 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact-form</title>
-    <link rel="stylesheet" href="css/cform.css">
-</head>
+    <title>dzieki za maila</title>
 
+    <Style>
+        .container {
+            margin-top: 60px;
+        }
+        h1, h3 {
+            text-align: center;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+        h1 {
+            color: green;
+        }
+    </Style>
+</head>
 <body>
-    <div id="container-form">
-        <h3>Skontaktuj się z nami</h3>
-        <form action="#" method="post" id="contact_form">
-            <div class="name">
-                <label for="name"></label>
-                <input type="text" placeholder="Imię i Nazwisko" name="name" id="name_input" required>
-            </div>
-            <div class="email">
-                <label for="email"></label>
-                <input type="email" placeholder="E-mail" name="email" id="email_input" required>
-            </div>
-            <div class="subject">
-                <label for="subject"></label>
-                <select placeholder="Wybierz temat" name="subject" id="subject_input" required>
-                    <option disabled hidden selected>Wybierz temat</option>
-                    <option class="option-color">grafika</option>
-                    <option class="option-color">frontend</option>
-                    <option class="option-color">programowanie</option>
-                </select>
-            </div>
-            <div class="message">
-                <label for="message"></label>
-                <textarea name="message" placeholder="Wiadomość" id="message_input" cols="30" rows="5"
-                    required></textarea>
-            </div>
-            <div class="submit">
-                <input type="submit" value="Wyślij" id="form_button" />
-            </div>
-        </form>
+
+    <div class="container">
+        <h1>Wiadomość została wysłana</h1>
+        <h3>Dziękuję :)</h3>
     </div>
 </body>
-
 </html>
